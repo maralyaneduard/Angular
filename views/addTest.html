@@ -1,0 +1,13 @@
+
+<div class="container">
+	<h1>Add test</h1>
+	<div>
+		
+		<label>Title</label>
+		<input ng-model="newTest.title" type="text" class="form-control" name="input" placeholder="Enter tests title"/><br/>
+		<label>Description</label>
+		<textarea ng-model="newTest.description" rows = "5" class="form-control" placeholder="Enter tests description"></textarea>
+		
+	</div>
+	<button style="margin-top:10px" class="btn btn-default" ng-click="sendPost()">Save</button>
+</div>
